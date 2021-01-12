@@ -1,0 +1,43 @@
+.features,
+.kinds {
+  display: flex;
+}
+
+.features__kind {
+  display: block;
+  margin-bottom: 30px;
+  width: calc((100% - 90px) / 4);
+}
+
+.features__kind:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features__icon {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+
+  background-color: $second-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 270px;
+  height: 120px;
+}
+
+.features__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: $title-text-color;
+  background-color: $background-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features__text {
+  margin-top: 0;
+  margin-bottom: 0;
+}

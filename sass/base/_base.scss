@@ -1,0 +1,77 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+section {
+  padding: 94px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+button {
+  cursor: pointer;
+}
+
+.page {
+  color: $primary-text-color;
+  background-color: $background-color;
+  font-family: $font-primary;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.logo {
+  color: $accent-color;
+  font-family: $font-logo;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* ИКОНКИ */
+.network,
+.social-icon,
+.kliyenty__scroll {
+  display: flex;
+}
+
+.team-icon {
+  align-items: center;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: $background-color;
+  width: 44px;
+  height: 44px;
+}
+
+.icon-antenna {
+  width: 270px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  background-size: cover;
+}
+
+.authNav__icon,
+.network__svg {
+  fill: currentColor;
+}
