@@ -359,7 +359,7 @@ button {
 
 .checkbox__input:checked + .checkbox__svg::before {
   background-color: #2196f3;
-  background-image: url("../../image/icon.svg");
+  background-image: url("./image/icon.svg");
   border-color: #2196f3;
   background-origin: border-box;
   background-size: contain;
@@ -457,8 +457,8 @@ button {
   padding: 200px 0;
   text-align: center;
   background-color: #2f303a;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../image/heroy.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../image/heroy.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("./image/heroy.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./image/heroy.jpg");
 }
 
 .hero-title {
