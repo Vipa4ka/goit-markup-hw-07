@@ -125,26 +125,34 @@
   overflow: hidden;
 }
 
-.checkbox__svg::before {
-  content: "";
-  display: inline-block;
-  margin-right: 7px;
-  height: 15px;
-  width: 16px;
-  border: 2px solid $title-text-color;
-  border-radius: 2px;
-  transition: transform 250ms linear;
+.checkbox__svg {
+  &::before {
+    content: "";
+    display: inline-block;
+    margin-right: 7px;
+    height: 15px;
+    width: 16px;
+    border: 2px solid $title-text-color;
+    border-radius: 2px;
+    transition: transform 250ms linear;
+  }
 }
 
-.checkbox__input:checked + .checkbox__svg::before {
-  background-color: $accent-color;
-  background-image: url("/image/icon.svg");
-  border-color: $accent-color;
-  background-origin: border-box;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  border: 1px solid transparent;
+.checkbox__input {
+  &:checked {
+    + .checkbox__svg {
+      &::before {
+        background-color: $accent-color;
+        background-image: url("/image/icon.svg");
+        border-color: $accent-color;
+        background-origin: border-box;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid transparent;
+      }
+    }
+  }
 }
 
 .checkbox__contract {
