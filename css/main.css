@@ -41,48 +41,11 @@ button {
 
 .logo {
   color: #2196f3;
-  font-family: Raleway, Arial;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-/* ИКОНКИ */
-.network,
-.social-icon,
-.kliyenty__scroll {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.team-icon {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0;
-  border: none;
-  border-radius: 50%;
-  margin-right: 10px;
-  background-color: #ffffff;
-  width: 44px;
-  height: 44px;
-}
-
-.icon-antenna {
-  width: 270px;
-  height: 120px;
-  background-color: rgba(255, 255, 255, 0.1);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-size: cover;
-}
-
-.authNav__icon,
-.network__svg {
-  fill: currentColor;
 }
 
 .main {
@@ -196,6 +159,7 @@ button {
 
 .authNav__icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 
 /* --------------------MODAL----------------------- */
@@ -623,11 +587,18 @@ h3 {
 }
 
 .network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 206px;
 }
 
 .network__margin:not(:last-child) {
   margin-right: 10px;
+}
+
+.network__svg {
+  fill: currentColor;
 }
 
 .network__icon {
@@ -666,6 +637,7 @@ h3 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
 .kliyenty__picture {
@@ -689,6 +661,12 @@ h3 {
 
 .kliyenty__list:not(:last-child) {
   margin-right: 30px;
+}
+
+.kliyenty__scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .kliyenty__svg {
