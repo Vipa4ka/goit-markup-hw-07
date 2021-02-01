@@ -1,8 +1,14 @@
 .network {
+  
   display: flex;
   width: 206px;
+  
 }
 
+.footer{
+  margin: 20px 137px 60px;
+
+}
 .network__margin:not(:last-child) {
   margin-right: 10px;
 }

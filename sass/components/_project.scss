@@ -1,26 +1,26 @@
-.project {
-  display: flex;
-  flex-wrap: wrap;
-}
+// .project {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
 .partition {
-  display: flex;
-  width: calc((100% - 60px) / 3);
-  margin-right: 30px;
+  // display: flex;
+  // width: calc((100% - 60px) / 3);
+  // margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.partition:nth-child(3n) {
-  margin-right: 0;
-}
-.partition:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
+// .partition:nth-child(3n) {
+//   margin-right: 0;
+// }
+// .partition:nth-last-child(-n + 3) {
+//   margin-bottom: 0;
+// }
 
-.partition__overley {
-  display: flex;
-  position: relative;
-  overflow: hidden;
-}
+  // .partition__overley {
+  //   display: flex;
+  //   position: relative;
+  //   overflow: hidden;
+  // }
 
 .partition__hover {
   margin: 0;

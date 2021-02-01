@@ -1,12 +1,14 @@
-.main {
-  display: flex;
-}
+// .main {
+//   display: flex;
+// }
 
-.com {
-  display: flex;
-  align-items: center;
-}
+// .com {
+//   padding: 16px 331px 16px 15px;
+//   // display: flex;
+//   // align-items: center;
+// }
 .page-header {
+  height: 60px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -16,9 +18,14 @@
 
 /*------------------siteNav------------------*/
 .siteNav {
-  display: flex;
-  margin-left: 93px;
-  align-items: center;
+  display: none;
+  @media screen and (min-width: 768px){
+    display: flex;
+    margin-left: 93px;
+    align-items: center
+  }
+
+
 }
 
 .siteNav__item {
@@ -28,7 +35,7 @@
   margin-right: 50px;
 }
 .siteNav__link {
-  display: block;
+  // display: block;
   padding: 32px 0;
 
   color: $title-text-color;
@@ -50,7 +57,7 @@
 .siteNav__link--active {
   &::after {
     content: "";
-    display: flex;
+    // display: flex;
     position: absolute;
     width: 100%;
     height: 4px;
@@ -62,17 +69,24 @@
 
 /*------------------authNav------------------*/
 .address {
+
   margin-left: auto;
 }
 .authNav {
-  display: inline-flex;
+  display: none;
+  @media screen and (min-width: 768px){
+    display: inline-flex;
+    
+  }
+
+  
 }
 .authNav__item:not(:last-child) {
   margin-right: 30px;
 }
 
 .authNav__dispatch {
-  display: inline-flex;
+  // display: inline-flex;
   padding: 32px 0;
 
   font-style: normal;
