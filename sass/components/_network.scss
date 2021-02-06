@@ -6,7 +6,7 @@
 }
 
 .footer{
-  margin: 20px 137px 60px;
+  margin: auto;
 
 }
 .network__margin:not(:last-child) {
@@ -36,5 +36,6 @@
 }
 
 .back {
+  color: $primary-bg-color;
   background: rgba(255, 255, 255, 0.1);
 }

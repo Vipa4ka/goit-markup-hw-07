@@ -1,14 +1,21 @@
-// .main {
-//   display: flex;
-// }
+.main {
+  @media screen and (min-width: 768px){
+    display: flex;
+    align-items: center;
+  }
+  
+}
 
-// .com {
-//   padding: 16px 331px 16px 15px;
-//   // display: flex;
-//   // align-items: center;
-// }
+.com {
+  @media screen and (min-width: 768px){
+    // padding: 16px 331px 16px 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+}
 .page-header {
-  height: 60px;
+  // height: 60px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -21,8 +28,12 @@
   display: none;
   @media screen and (min-width: 768px){
     display: flex;
-    margin-left: 93px;
+    margin-left: 88px;
     align-items: center
+  }
+  @media screen and (min-width: 1200px){    
+    margin-left: 93px;
+    
   }
 
 
@@ -34,9 +45,9 @@
 .siteNav__item:not(:last-child) {
   margin-right: 50px;
 }
-.siteNav__link {
-  // display: block;
-  padding: 32px 0;
+.siteNav__link {  
+  
+  // padding: 32px 0;
 
   color: $title-text-color;
   font-weight: 500;
@@ -48,6 +59,10 @@
   &:hover {
     color: $accent-color;
   }
+
+  @media screen and (min-width: 768px){
+    display: block;
+  }
 }
 
 .siteNav__link--active {
@@ -57,11 +72,11 @@
 .siteNav__link--active {
   &::after {
     content: "";
-    // display: flex;
+    display: flex;
     position: absolute;
     width: 100%;
     height: 4px;
-    top: 77px;
+    top: 46px;
     border-radius: 2px;
     background-color: $accent-color;
   }
@@ -69,12 +84,15 @@
 
 /*------------------authNav------------------*/
 .address {
-
   margin-left: auto;
 }
 .authNav {
   display: none;
   @media screen and (min-width: 768px){
+    display: block;
+    
+  }
+  @media screen and (min-width: 1200px){
     display: inline-flex;
     
   }
@@ -82,11 +100,13 @@
   
 }
 .authNav__item:not(:last-child) {
-  margin-right: 30px;
+  @media screen and (min-width: 1200px){
+    margin-right: 30px;    
+  }
+  
 }
 
-.authNav__dispatch {
-  // display: inline-flex;
+.authNav__dispatch {  
   padding: 32px 0;
 
   font-style: normal;
@@ -100,6 +120,10 @@
   &:focus,
   &:hover {
     color: $accent-color;
+  }
+
+  @media screen and (min-width: 1200px){
+    display: inline-flex;    
   }
 }
 
