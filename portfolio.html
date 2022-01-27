@@ -16,11 +16,10 @@
     <!--Шапка сайта-->
     <header class="page-header">
         <div class="container main">
-            <nav class="com">
+            <nav class="com"> 
                 <a href="./" class="logo">Web<span class="header-logo">Studio</span></a>
                 <ul class="siteNav">
-                    <li class="siteNav__item"><a href="./index.html" class="siteNav__link">Студия</a>
-                    </li>
+                    <li class="siteNav__item"><a href="./index.html" class="siteNav__link ">Студия</a> </li>
                     <li class="siteNav__item"><a href="./portfolio.html" class="siteNav__link siteNav__link--active">Портфолио</a> </li>
                     <li class="siteNav__item"><a href="" class="siteNav__link">Контакты</a> </li>
                 </ul>
@@ -191,26 +190,24 @@
                 </div>                
             </section>        
     </main>
-        <footer class="navi">
-            <!-- <h2>WebStudio</h2> -->
-            <div class="container foot">
+    <footer class="navi">
+        <!-- <h2>WebStudio</h2> -->
+        <div class="container foot">
+            <div class="footer-logo">
                 <div>
-                    <a href="./" class="logo">Web<span class="logo-footer">Studio</span></a>
+                    <a href="./" class="logo pad">Web<span class="logo-footer">Studio</span></a>
                     <address>
                         <ul class="cell">
-                            <li class="cell__direction"><a href="#" class="cell__address">г. Киев, пр-т Леси Украинки, 26</a>
+                            <li class="cell__direction"><a href="#" class="cell__address">г. Киев, пр-т Леси Украинки, 26</a></li>
+                            <li class="cell__dispatch"><a href="mailto:info@example.com" class="cell__group">info@example.com</a>
                             </li>
-                            <li class="cell__dispatch"><a href="mailto:info@example.com"
-                                    class="cell__group">info@example.com</a>
-                            </li>
-                            <li class="cell__dispatch"><a href="tel:+380991111111" class="cell__group">+38 099 111 11 11</a>
-                            </li>
+                            <li class="cell__dispatch"><a href="tel:+380991111111" class="cell__group">+38 099 111 11 11</a></li>
                         </ul>
                     </address>
                 </div>
                 <div class="social">
                     <p class="social-text">присоединяйтесь</p>
-                    <ul class="network">
+                    <ul class="network footer">
                         <li class="network__margin">
                             <a href="" class="network__icon back">
                                 <svg class="network__svg" width="20" height="20">
@@ -241,20 +238,21 @@
                         </li>
                     </ul>
                 </div>
-                <div class="subscription">
-                    <p class="subscription__text">Подпишитесь на рассылку</p>
-                    <div>
-                        <form class="subscription__form" autocomplete="off">
-                            <input class="subscription__mail" type="email" name="email" placeholder="E-mail" />
-                            <button class="button button--subscription">Подписаться
-                                <svg class="subscription__svg" width="24" height="24">
-                                    <use href="./image/sprite.svg#icon-send"></use>
-                                </svg>
-                            </button>
-                        </form>
-                    </div>
+            </div>
+            <div class="subscription">
+                <p class="subscription__text">Подпишитесь на рассылку</p>
+                <div>
+                    <form class="subscription__form" autocomplete="off">
+                        <input class="subscription__mail" type="email" name="email" placeholder="E-mail" />
+                        <button class="button button--subscription">Подписаться
+                            <svg class="subscription__svg" width="24" height="24">
+                                <use href="./image/sprite.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 </body>    
 </html>

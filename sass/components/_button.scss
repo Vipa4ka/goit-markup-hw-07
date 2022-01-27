@@ -26,6 +26,10 @@
 
 .button--subscription {
   display: inline-flex;
-  margin-left: 12px;
+  ;
   padding: 10px 29px;
+  @media screen and (min-width: 1200px){
+    margin-left: 12px;
+    
+  }
 }

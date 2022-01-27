@@ -1,5 +1,11 @@
 .work {
-  padding: 0 0 94px;
+  display: none;
+
+  @media screen and (min-width: 768px){
+    padding: 0 0 94px;
+  }
+
+   
 }
 .work-title {
   margin-top: 0;
@@ -14,14 +20,14 @@
 }
 
 .kinds__foto {
-  display: flex;
+  // display: flex;
   position: relative;
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
 }
 
 .kinds__text {
-  display: inline-block;
+  // display: inline-block;
   position: absolute;
   margin: 0;
   width: 100%;
